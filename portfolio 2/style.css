@@ -1,0 +1,357 @@
+body{
+    font-family:'montserrat',sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #ffffff, #000000);
+    color: black;
+    height: 400vh;
+}
+
+.introduction{
+ 
+    display: flex;
+    flex-direction: column;
+ padding: 0.5rem 0 0.5rem 0;
+ height: 100vh;
+ width: 100%;
+ flex-wrap: wrap;
+ overflow-x:hidden;
+
+   
+}
+
+.name{
+    background-color: rgb(67, 24, 223);
+    height: 160px;
+    border-radius: 0 6rem 6rem 0;
+    margin-top: 12rem;
+    font-size: 3rem;
+    padding: 1rem;
+    color: goldenrod;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+.name:hover{
+    font-weight: 600;
+    color: gold;
+}
+
+.name p{
+    font-size: 35px;
+}
+
+
+@keyframes example {
+   0% { background-color: rgba(67, 24, 223, 0.252); left: 0px; top: 0px; }
+  25% { background-color: rgba(67, 24, 223, 0.393); left: 200px; top: 0px; }
+  50% { background-color: rgba(67, 24, 223, 0.605); left: 200px; top: 200px; }
+  75% { background-color: rgba(67, 24, 223, 0.834); left: 0px; top: 200px; }
+  100% { background-color:rgb(67, 24, 223); left: 0px; top: 0px; }
+  }
+
+.intro{
+    background-color:rgb(67, 24, 223);
+    border-radius: 0 6rem 6rem 0;
+    flex: 1;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    font-weight: 300;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 2.5rem;
+    align-items: center;
+    color: goldenrod;
+    width: 50rem;
+    animation-name: second;
+    animation-duration: 2s;
+
+}
+
+@keyframes second
+  {
+   from { width:37rem;font-weight: 100; }
+    to { width:50rem; }
+    0% { background-color: rgba(67, 24, 223, 0.252); left: 0px; top: 0px; }
+  25% { background-color: rgba(67, 24, 223, 0.393); left: 200px; top: 0px; }
+  50% { background-color: rgba(67, 24, 223, 0.605); left: 200px; top: 200px; }
+  75% { background-color: rgba(67, 24, 223, 0.834); left: 0px; top: 200px; }
+  100% { background-color:rgb(67, 24, 223); left: 0px; top: 0px; }
+  }
+
+.intro:hover{
+    font-weight: 500;
+    color: gold;
+    box-shadow: 10px bold goldenrod ;
+    
+}
+
+
+.logo{
+    background-color: #ffffff00;
+    height: 100%;
+    border-radius: 0 6rem 6rem 0;
+    padding: 3rem 0 3rem 0;
+    justify-content: center;
+
+}
+
+.container{
+    margin:40px 16px 20px 40px;
+    background-color: gold;
+    padding:2rem 1rem 1rem 2rem;
+    border-radius: 60%;
+
+}
+
+.logo img{
+    height:50%;
+    width:50%;
+    margin-left: 80px;
+ 
+}
+
+/*page2 */
+
+.skills-projects{
+   
+   display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0 0.5rem 0;
+  height: 100vh;
+  width: 100%;
+  flex-wrap: wrap;/*wrap will force item to move to another line if it overflow depending on flex-direction*/
+  overflow-x:hidden;
+  transform:scaleX(-1);
+ 
+ }
+
+ .skills{
+    background-color: rgb(67, 24, 223);
+    height: 160px;
+    border-radius: 0 6rem 6rem 0;
+    margin-top: 8.5rem;
+    font-size: 3rem;
+    align-items: center;
+    padding: 1rem;
+    color: goldenrod;
+
+}
+
+.innertext{
+    padding-left: 1rem;
+    transform:scaleX(-1);
+    align-items:right;
+
+}
+
+.icons{
+    display: flex;
+}
+
+.icons i{
+    margin-left: 6px;
+
+}
+
+.cpp{
+    display: flex;
+    margin-left: 0;
+}
+
+.text{
+    font-size: 2rem;
+}
+
+.skills:hover{
+    font-weight: 400;
+    color: gold;
+}
+
+.projects{
+    background-color:rgb(67, 24, 223);
+    border-radius: 0 6rem 6rem 0;
+    flex: 1;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    font-weight: 300;
+    justify-content: center;
+    font-size: 2.5rem;
+    align-items: center;
+    padding: 1rem;
+    color: goldenrod;
+    width: 50rem;
+
+}
+
+.list{
+    font-size: 30px;
+}
+
+.projects:hover{
+    font-weight: 400;
+    color: gold;
+}
+
+.pg2{
+    transform:scaleX(-1);
+    }
+
+
+ /*page 3*/
+
+ .language{
+ 
+    display: flex;
+    flex-direction: column;
+ padding: 0.5rem 0 0.5rem 0;
+ height: 100vh;
+ width: 100%;
+ flex-wrap: wrap;
+ overflow-x:hidden;
+
+   
+}
+
+.language-container{
+    background-color:rgba(229, 237, 11, 0.092);
+    border-radius:2rem;
+    flex: 1;
+    margin: 5rem 0 5rem 1rem;
+    padding-right: 1.8rem;
+    color: goldenrod;
+    width: 40rem;
+    border: solid black;
+
+}
+
+.bar1{
+    background-color: rgb(67, 24, 223);
+    height: 100px;
+    border-radius: 0 6rem 6rem 0;
+    margin-top: 1.5rem;
+    margin-bottom: 3.5rem;
+    font-size: 2.9rem;
+    align-items: center;
+    padding: 1rem;
+    color: goldenrod;
+
+    
+}
+
+.bar{
+    background-color:rgb(67, 24, 223);
+    border-radius: 0 6rem 6rem 0;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    font-weight: 300;
+    font-size: 1.55rem;
+    padding: 0.3rem;
+    color: goldenrod;
+   height:30px;
+}
+
+#E{
+    width:9rem;
+    overflow:hidden;
+}
+
+#E:hover{
+    width: 40rem;
+    font-weight: 500;
+}
+ 
+
+#H{
+    width:9rem;
+    overflow:hidden;
+}
+#H:hover{
+    width:40rem;
+    font-weight: 500;
+
+}
+
+
+#G{
+    width:9rem;
+    overflow:hidden;
+}
+#G:hover{
+    width:17rem;
+    font-weight: 500;
+
+}
+
+
+#K{
+    width:9rem;
+    overflow:hidden;
+}
+#K:hover{
+    width:10rem;
+    font-weight: 500;
+
+}
+
+
+
+.pg3{
+    height:50%;
+    width:50%;
+    padding-left: 35px;
+
+    
+}
+/*page4*/
+.contact{
+     
+    display: flex;
+    flex-direction: column;
+ padding: 0.5rem 0 0.5rem 0;
+ height: 100vh;
+ width: 100%;
+ flex-wrap: wrap;
+ overflow-x:hidden;
+ overflow-y: hidden;
+ transform:scaleX(-1);
+
+}
+
+.about{
+    background-color: rgb(67, 24, 223);
+    height: 260px;
+    border-radius: 0 6rem 6rem 0;
+    margin-top: 5.5rem;
+    font-size: 1.9rem;
+    padding: 1rem;
+    color: goldenrod;
+    width: 60rem;
+    
+}
+
+.about .about-me{
+    padding-left: 1rem;
+    transform:scaleX(-1);
+    align-items:right;
+ align-content:space-around;
+}
+
+.contact-me{
+    background-color:rgb(67, 24, 223);
+    border-radius: 0 6rem 6rem 0;
+    flex: 1;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 2.5rem;
+    align-items: center;
+    padding: 0.7rem;
+    color: goldenrod;
+    width: 60rem;
+}
+
+.pg4{
+    transform:scaleX(-1);
+    }
+
+
